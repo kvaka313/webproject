@@ -5,7 +5,7 @@
     <title></title>
   </head>
   <body>
-    <form action="'./servlet" method="GET">
+    <form action="./servlet" method="GET">
       <input type="text" name="username" valuie=""/>
       <br>
       <input type="submit" name="ok" value="send"/>
