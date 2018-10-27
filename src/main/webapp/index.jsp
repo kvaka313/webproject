@@ -1,5 +1,6 @@
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib uri = "/WEB-INF/tld/mytag.tld" prefix = "mytag" %>
 <html>
   <head>
     <title></title>
@@ -11,5 +12,6 @@
       <input type="submit" name="ok" value="send"/>
 
     </form>
+   <mytag:welcome/>
   </body>
 </html>

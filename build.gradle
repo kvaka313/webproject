@@ -33,6 +33,7 @@ dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
     compile group: 'javax.servlet', name: 'javax.servlet-api', version: '4.0.1'
     cargo "org.codehaus.cargo:cargo-core-uberjar:1.4.5",  "org.codehaus.cargo:cargo-ant:1.4.5"
+    compile group: 'javax.servlet.jsp', name: 'jsp-api', version: '2.2'
 }
 
 cargo {
