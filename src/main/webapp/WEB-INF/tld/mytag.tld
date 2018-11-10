@@ -9,6 +9,9 @@
     <tag>
         <name>welcome</name>
         <tag-class>com.infopulse.tags.Welcome</tag-class>
-        <body-content>empty</body-content>
+        <body-content>tagdependent</body-content>
+        <attribute>
+            <name>name</name>
+        </attribute>
     </tag>
 </taglib>
